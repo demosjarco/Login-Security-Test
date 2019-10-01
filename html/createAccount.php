@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-include_once("../sdrowssap.shhh");
+include_once("../main.variables.php");
 
 function createPasswordStars($passwordLength) {
 	$stars = "";

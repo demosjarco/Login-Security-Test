@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-include_once("../sdrowssap.shhh");
+include_once("../main.variables.php");
 
 $db = new mysqli($mysql_host, $mysql_username_login, $mysql_password_login, $mysql_db);
 
