@@ -1,0 +1,26 @@
+div#chat {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+div#chat > div {
+  display: flex;
+  flex-direction: row;
+}
+div#chat > div#input input[type=text] {
+  width: calc(100% - 50px - 16px);
+}
+div#chat > div.row div.info {
+  display: flex;
+  flex-direction: column;
+}
+div#chat > div.row div.info span {
+  display: block;
+}
+div#chat > div.row div.info span.username {
+  font-weight: bold;
+}
+div#chat > div.row div.info span.username.self {
+  color: blue;
+}

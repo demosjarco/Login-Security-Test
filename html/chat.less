@@ -1,0 +1,47 @@
+div#chat {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    > div {
+        display: flex;
+        flex-direction: row;
+
+        &#input {
+            input[type=text] {
+                width: calc(~"100% - 50px - 16px");
+            }
+
+            input[type=submit] {
+            }
+        }
+        
+        &.row {
+            div.info {
+                display: flex;
+                flex-direction: column;
+
+                span {
+                    display: block;
+
+                    &.username {
+                        font-weight: bold;
+
+                        &.self {
+                            color: blue;
+                        }
+                    }
+
+                    &.date {
+
+                    }
+                }
+            }
+    
+            p.message {
+    
+            }
+        }
+    }
+}
