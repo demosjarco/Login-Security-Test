@@ -1,22 +1,28 @@
 {
-	"name": "login-security-test",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"less": "less-watch-compiler . ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/demosjarco/Login-Security-Test.git"
-	},
-	"author": "demosjarco",
-	"license": "GPL-3.0",
-	"bugs": {
-		"url": "https://github.com/demosjarco/Login-Security-Test/issues"
-	},
-	"homepage": "https://github.com/demosjarco/Login-Security-Test#readme",
-	"devDependencies": {
-		"less-watch-compiler": "^1.14.1"
-	}
+  "name": "login-security-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less": "less-watch-compiler . .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demosjarco/Login-Security-Test.git"
+  },
+  "author": "demosjarco",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/demosjarco/Login-Security-Test/issues"
+  },
+  "homepage": "https://github.com/demosjarco/Login-Security-Test#readme",
+  "devDependencies": {
+    "less-watch-compiler": "^1.14.1"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.393.0"
+  }
 }
