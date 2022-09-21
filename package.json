@@ -17,6 +17,6 @@
 	},
 	"homepage": "https://github.com/demosjarco/Login-Security-Test#readme",
 	"devDependencies": {
-		"less-watch-compiler": "^1.14.1"
+		"less-watch-compiler": "^1.16.3"
 	}
 }
